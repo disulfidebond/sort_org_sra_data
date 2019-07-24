@@ -19,7 +19,7 @@ Then, run the following bash command to parse out the identifiers from the files
 
 Repeat for Baylor-10 and Baylor-11.
 
-Finally, perform a [Full Outer Join](https://www.w3schools.com/sql/sql_join_full.asp) to match the IDs to the SRA data, and determine if any were missed. Excel can be used for this task, as well as R or python (programmatically).  Then modify the [Google Document](https://docs.google.com/spreadsheets/d/11DPbtNG3Y0SPumB0bY-fUOGExG4LXjYB4THpSWp0lLE/edit#gid=0).
+Finally, perform a [Full Outer Join](https://www.w3schools.com/sql/sql_join_full.asp) to match the IDs to the SRA data, and determine if any were missed. Excel can be used for this task, as well as R or python (programmatically).  Then modify the corresponding Google Document or database file.
 
 An example using pandas is shown here:
 
