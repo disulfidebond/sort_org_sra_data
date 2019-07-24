@@ -31,3 +31,7 @@ An example using pandas is shown here:
         merged = pd.merge(df_identifiers, df_SRA, on='Animal_ID', how='outer')
         valueIsNaN = merged[merged['BioSample'].isnull()]
         # valueIsNaN is a data frame with any missing values
+
+## Files
+The documents for the outer join are [here](https://github.com/disulfidebond/sort_org_sra_data/blob/master/baylor09_parsed.tsv) and [here](https://github.com/disulfidebond/sort_org_sra_data/blob/master/baylor_09_idList.csv).
+The finished document is [here](https://github.com/disulfidebond/sort_org_sra_data/blob/master/baylor_09_outerJoin.csv). 
